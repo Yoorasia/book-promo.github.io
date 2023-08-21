@@ -269,8 +269,8 @@
   border-radius: 3vw;
   justify-content: center;
   align-items: center;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
   display: flex;
   overflow: hidden;
   box-shadow: inset 0 0 20px 20px rgba(0, 0, 0, .2);
@@ -294,7 +294,7 @@
 }
 
 .section.book-info {
-  height: 150vh;
+  height: 100vh;
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -950,7 +950,7 @@
   height: auto;
   background-color: #fff;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 
 .section-review.book-info {
@@ -1023,6 +1023,250 @@
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.7rem;
+}
+
+.leaf1 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 37%;
+  left: 18%;
+  right: 0;
+}
+
+.leaf2 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 29%;
+  left: 7%;
+  right: 0;
+}
+
+.leaf3 {
+  width: 2rem;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: auto;
+  bottom: 21%;
+  left: 23%;
+  right: 0;
+  transform: rotate(41deg);
+}
+
+.leaf4 {
+  width: 2rem;
+  mix-blend-mode: normal;
+  object-fit: fill;
+  position: absolute;
+  top: auto;
+  bottom: 20%;
+  left: 89%;
+  right: 0;
+  transform: rotate(163deg);
+}
+
+.leaf5 {
+  width: 1.8rem;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: auto;
+  bottom: 8%;
+  left: 57%;
+  right: 0;
+}
+
+.leaf6 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 1%;
+  left: 12%;
+  right: 0;
+  transform: rotate(-103deg);
+}
+
+.leaf7 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: -7%;
+  left: 70%;
+  right: 0;
+}
+
+.leaf8 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 87%;
+  left: 25%;
+  right: 0;
+}
+
+.leaf9 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 79%;
+  left: 0%;
+  right: 0;
+}
+
+.leaf10 {
+  width: 2rem;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: auto;
+  bottom: 71%;
+  left: 50%;
+  right: 0;
+  transform: rotate(41deg);
+}
+
+.leaf11 {
+  width: 2rem;
+  mix-blend-mode: normal;
+  object-fit: fill;
+  position: absolute;
+  top: auto;
+  bottom: 70%;
+  left: 95%;
+  right: 0;
+  transform: rotate(163deg);
+}
+
+.leaf12 {
+  width: 1.8rem;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: auto;
+  bottom: 50%;
+  left: 57%;
+  right: 0;
+}
+
+.leaf13 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 60%;
+  left: 25%;
+  right: 0;
+  transform: rotate(-103deg);
+}
+
+.leaf14 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 43%;
+  left: 77%;
+  right: 0;
+}
+
+.inthebook {
+  display: block;
+  position: absolute;
+}
+
+.quick-stack-2, .quick-stack-3 {
+  width: 45%;
+}
+
+.inthebookh {
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+}
+
+.inthebookp {
+  font-family: Lato, sans-serif;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+}
+
+.inthebookwrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/Group-353.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.leaf15 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 37%;
+  left: 18%;
+  right: 0;
+}
+
+.leaf16 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 29%;
+  left: 7%;
+  right: 0;
+}
+
+.leaf17 {
+  width: 2rem;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: auto;
+  bottom: 21%;
+  left: 23%;
+  right: 0;
+  transform: rotate(41deg);
+}
+
+.leaf18 {
+  width: 2rem;
+  mix-blend-mode: normal;
+  object-fit: fill;
+  position: absolute;
+  top: auto;
+  bottom: 20%;
+  left: 89%;
+  right: 0;
+  transform: rotate(163deg);
+}
+
+.leaf19 {
+  width: 1.8rem;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: auto;
+  bottom: 8%;
+  left: 57%;
+  right: 0;
+}
+
+.leaf20 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: 1%;
+  left: 12%;
+  right: 0;
+  transform: rotate(-103deg);
+}
+
+.leaf21 {
+  width: 2rem;
+  position: absolute;
+  top: auto;
+  bottom: -7%;
+  left: 70%;
+  right: 0;
 }
 
 @media screen and (max-width: 991px) {
@@ -1766,6 +2010,13 @@
   .paragraph-5, .reviwep {
     margin-bottom: 0;
   }
+
+  .inthebookwrapper {
+    width: auto;
+    height: auto;
+    margin-top: 5rem;
+    padding-top: 0;
+  }
 }
 
 #w-node-e0951e26-da38-ffa4-2727-ed23bd54b5ec-0605d808 {
@@ -1788,6 +2039,24 @@
 }
 
 #w-node-_0cadbe4a-dd07-248e-0c29-dc105ccafe02-0605d808 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-b0ed43b4-2afd-40dc-41ae-096cd6dd9853-0605d808 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_675b0c70-4a49-d91b-9239-3e6c49c89290-0605d808, #w-node-_821262d9-a69f-7976-3127-e4e50cf5df12-0605d808 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_57fee37b-b260-6da9-13c4-cabad399917d-0605d808 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_57fee37b-b260-6da9-13c4-cabad399917e-0605d808, #w-node-_57fee37b-b260-6da9-13c4-cabad399917f-0605d808 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
