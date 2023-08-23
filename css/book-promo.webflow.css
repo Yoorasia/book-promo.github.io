@@ -256,7 +256,7 @@
 
 .book-review {
   width: 100%;
-  height: 70%;
+  height: 50rem;
   max-width: 1000px;
   min-width: auto;
   -webkit-text-fill-color: inherit;
@@ -294,10 +294,12 @@
 }
 
 .section.book-info {
-  height: 100vh;
+  height: auto;
   background-color: #fff;
   justify-content: center;
   align-items: center;
+  padding-top: 25rem;
+  padding-bottom: 25rem;
   display: flex;
 }
 
@@ -335,6 +337,7 @@
   font-size: 2rem;
   font-weight: 900;
   line-height: 2rem;
+  color: #2c2c2c;
 }
 
 .button {
@@ -380,6 +383,7 @@
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.4rem;
+  color: #2c2c2c;
 }
 
 .btnwrapper {
@@ -660,16 +664,6 @@
   border-radius: 1.5rem;
 }
 
-.tabw {
-  width: 100%;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  padding-left: 60px;
-  padding-right: 60px;
-  display: flex;
-}
-
 .tab-pane-tab-1-2 {
   width: auto;
   height: 100%;
@@ -878,11 +872,6 @@
   color: #07367a;
 }
 
-.block-quote {
-  color: #07367a;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .good-twow, .replyw {
   justify-content: center;
   align-items: center;
@@ -953,14 +942,6 @@
   padding-bottom: 100px;
 }
 
-.section-review.book-info {
-  height: 150vh;
-  background-color: #fff;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 .paragraph-review {
   width: 100%;
   height: 3.6em;
@@ -1023,13 +1004,14 @@
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.7rem;
+  color: #2c2c2c;
 }
 
 .leaf1 {
   width: 2rem;
   position: absolute;
   top: auto;
-  bottom: 37%;
+  bottom: 0%;
   left: 18%;
   right: 0;
 }
@@ -1038,7 +1020,7 @@
   width: 2rem;
   position: absolute;
   top: auto;
-  bottom: 29%;
+  bottom: 0;
   left: 7%;
   right: 0;
 }
@@ -1048,7 +1030,7 @@
   mix-blend-mode: normal;
   position: absolute;
   top: auto;
-  bottom: 21%;
+  bottom: -35%;
   left: 23%;
   right: 0;
   transform: rotate(41deg);
@@ -1060,7 +1042,7 @@
   object-fit: fill;
   position: absolute;
   top: auto;
-  bottom: 20%;
+  bottom: -47%;
   left: 89%;
   right: 0;
   transform: rotate(163deg);
@@ -1071,7 +1053,7 @@
   mix-blend-mode: normal;
   position: absolute;
   top: auto;
-  bottom: 8%;
+  bottom: -73%;
   left: 57%;
   right: 0;
 }
@@ -1080,7 +1062,7 @@
   width: 2rem;
   position: absolute;
   top: auto;
-  bottom: 1%;
+  bottom: -72%;
   left: 12%;
   right: 0;
   transform: rotate(-103deg);
@@ -1090,12 +1072,13 @@
   width: 2rem;
   position: absolute;
   top: auto;
-  bottom: -7%;
+  bottom: -100%;
   left: 70%;
   right: 0;
 }
 
 .leaf8 {
+  z-index: 1;
   width: 2rem;
   position: absolute;
   top: auto;
@@ -1163,11 +1146,6 @@
   bottom: 43%;
   left: 77%;
   right: 0;
-}
-
-.inthebook {
-  display: block;
-  position: absolute;
 }
 
 .quick-stack-2, .quick-stack-3 {
@@ -1267,6 +1245,16 @@
   bottom: -7%;
   left: 70%;
   right: 0;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 991px) {
@@ -1448,6 +1436,7 @@
 
   .authorsection {
     height: auto;
+    padding: 5rem;
   }
 
   .sectionlink {
@@ -1761,6 +1750,7 @@
   .paragraph-3 {
     font-size: 1rem;
     line-height: 1.3rem;
+    color: #2c2c2c;
   }
 
   .linkbox {
@@ -1993,11 +1983,6 @@
     padding-right: 0;
   }
 
-  .section-review.book-info {
-    height: 100vh;
-    align-items: flex-start;
-  }
-
   .paragraph-4 {
     font-size: 1rem;
     line-height: 1.3rem;
@@ -2007,11 +1992,7 @@
     width: 100%;
   }
 
-  .paragraph-5, .reviwep {
-    margin-bottom: 0;
-  }
-
-  .inthebookwrapper {
+  .inthebookwrapper, .wrap {
     width: auto;
     height: auto;
     margin-top: 5rem;
@@ -2162,5 +2143,69 @@
     grid-area: span 2 / span 1 / span 2 / span 1;
   }
 }
+/* 기본 바디 스타일 설정 */
+body {
+  background: #fff;                /* 배경색을 흰색으로 설정 */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; /* 폰트 패밀리 설정 */
+  font-size: 14px;                 /* 폰트 크기 설정 */
+  color:#000;                      /* 글자 색상 설정 */
+  margin: 0;                       /* 바디의 마진 제거 */
+  padding: 0;                      /* 바디의 패딩 제거 */
+}
+.c-text{
+  position: absolute;
+  top: 32rem;
+}
+.c-text h2{
+  text-align: center;
+}
+.c-text p{
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
 
+/* 스와이퍼 컨테이너 스타일 설정 */
+.swiper-container {
+  width: 1200px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  position: static;
+}
+.swiper-wrapper {
+  width: 100vw;
+}
+.swiper-slide{
+  width: 20rem;
+  height: 30rem;
+
+}
+/* 스와이퍼 내부 아이템 스타일 설정 */
+.swiper-slide .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;             /* 아이템들을 가로 방향으로 배열 */
+}
+
+/* 스와이퍼 내부 각 div 스타일 설정 */
+.swiper-slide .item .div {
+  width: 20rem;                    /* div의 너비 설정 */
+  height: 30rem;                   /* div의 높이 설정 */
+  border-radius: 2.5rem;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, .8);
+  box-shadow: 0 0 50px 10px rgba(116, 116, 116, .2);
+  display: flex;
+  align-items: center;
+  justify-content: center
+  ;
+}
+.div img{
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  opacity: 90%;
+}
 
