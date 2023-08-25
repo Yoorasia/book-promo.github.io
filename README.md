@@ -1,4 +1,4 @@
-# book-promo.github.io
+# https://yoorasia.github.io/book-promo.github.io/
 북 프로모션 페이지
 <br/>
 Change Log
